@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+    height: 50px;
+}
+
+.top-commercial {
+    width: 100%;
+    height: 35px;
+}
+
+.top-commercial img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(50,50,50,0.1);
+    height: 55px;
+    width: 95%;
+    margin: auto;
+}
+
+
+
+.icon {
+    height: 22px;
+}
+
+.logo-image {
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+}
