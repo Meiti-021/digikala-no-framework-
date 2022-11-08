@@ -128,7 +128,7 @@ body {
 
 .container-slider {
     width: 100vw;
-    height: 265px;
+    height: 268px;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -193,4 +193,48 @@ body {
     width: 18px;
     height: 6px;
     background-color: aliceblue;
+  }
+
+
+  .site-item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 8px;
+  }
+
+  .map-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .map-title {
+    font-size: 10px;
+  }
+
+  .site-map-head {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    margin-top: 10px;
+  }
+
+
+  .more {
+    background-color: rgb( 235,235 ,235 );
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .more-image {
+    width: 50%;
+    height: 50%;
+    object-position: center;
+    object-fit: contain;
   }
