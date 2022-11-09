@@ -1,0 +1,37 @@
+
+.crausel-container {
+  background-color: #EF3A4F;
+  height: 260px;
+  position: relative;
+  width: 100%;
+  overflow-x: scroll;
+  padding: 15px;
+}
+
+.crausel-container::-webkit-scrollbar {
+  display: none;
+}
+
+.crausel-container .slider {
+  display: flex;
+  flex-direction: row-reverse;
+  width: auto;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  gap: 5px;
+}
+
+.offer-pack{
+  width: 150px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  direction: rtl;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  gap: 15px;
+}

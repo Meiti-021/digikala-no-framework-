@@ -8,6 +8,11 @@
 body {
     width: 100vw;
     font-family: vazir;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
 }
 
 .container {
@@ -238,3 +243,78 @@ body {
     object-position: center;
     object-fit: contain;
   }
+
+  .offers {
+    height: 260px;
+    background-color: #EF3A4F;
+    margin-top: 15px;
+  }
+
+.offer-banner {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer-typo {
+  background-image: url('../images/products/amazing-typo.svg');
+  height: 80px;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.offer-main {
+  width: 65%;
+}
+.more-offers {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.more-offers i {
+  font-size: 18px;
+}
+
+
+.offer-image {
+  width: 90%;
+}
+
+.main-price {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 25px;
+}
+
+.offer {
+  color: aliceblue;
+  background-color: #EF3A4F;
+  border-radius: 10px;
+  width: 40px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-offer-price {
+  color: rgb( 150,150,150);
+  text-decoration: line-through;
+  margin-right: 55px;
+}
+
+.first-offer {
+  border-radius: 0px 10px 10px 0px;
+}
+.last-offer {
+  border-radius: 10px 0px 0px 10px;
+}
