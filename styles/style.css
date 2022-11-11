@@ -246,16 +246,32 @@ body::-webkit-scrollbar {
 
   .offers {
     height: 260px;
-    background-color: #EF3A4F;
     margin-top: 15px;
     overflow-y: hidden;
     align-items: flex-start;
+    background-color: #EF3A4F;
+    padding: 15px;
   }
 
 
   .offer-slider {
     top: 0;
+    gap: 5px;
   }
+
+.offer-pack{
+  width: 150px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  direction: rtl;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  gap: 15px;
+}
 
 .offer-banner {
   width: 200px;
@@ -446,4 +462,498 @@ body::-webkit-scrollbar {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.class-image {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.class-title {
+  height: 20%;
+  font-size: 12px;
+}
+
+.class-copmlex {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  text-align: center;
+  padding: 15px;
+}
+
+.classes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 40px;
+}
+
+.last-row-grid {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.main-class-title {
+  padding: 35px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.middle-commerce {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.midle-item {
+  width: 45%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.middle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+
+
+
+.brands {
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  margin-top: -20px;
+}
+
+.brands-slider {
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  left: 0;
+  gap: 40px;
+  padding: 0px 20px;
+}
+
+.brand {
+  display: block;
+  width: 70px;
+  object-fit: contain;
+}
+
+
+.middle-commerce-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 20px;
+}
+
+
+.sec-comm {
+  width: 100%;
+}
+
+.vitrin {
+  display: block;
+}
+
+.populars {
+  padding: 25px;
+
+}
+
+.popular-subtitle {
+  text-align: end;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+
+.popular-sub {
+  margin-bottom: 25px;
+}
+
+.popular-desc {
+  text-align: end;
+  font-size: 10px;
+  color: #b1b1b0;
+}
+
+.popular-vitrine {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+  row-gap: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.vitrine {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+.more-btn {
+  text-align: center;
+  font-size: 13px;
+  display: flex;
+  gap: 5px;
+  color: rgb(5, 197, 197);
+  justify-content: center;
+  align-items: center;
+}
+
+.digiplus {
+  background-color: #941b80;
+  height: auto;
+  padding: 15px 0;
+}
+
+
+.widget-header {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 25px;
+  background-image: url(../images/plus-widget.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+
+.digiplus-logo {
+  background-image: url('../images/digiplus-logo.svg');
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 120px;
+  background-position: center;
+}
+
+.digiplus-desc {
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+
+.subscribe {
+  border: 1px solid #fff;
+  background-color: #941b80;
+  color: #fff;
+  height: 35px;
+  width: 120px;
+  border-radius: 10px;
+  font-family: vazir;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.plus-rewords {
+  height: 200px;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.first-reword {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.sec-reword {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.first-row-reword {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  font-size: 14px;
+  flex-direction: row-reverse;
+}
+
+.sec-row-rewords {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.reword-complex {
+  width: 120px;
+  position: relative;
+}
+
+.reword-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.reword-caption {
+  position: absolute;
+  font-size: 12px;
+  right:-20px;
+  bottom: 10px;
+  background-color: #fff;
+  height: 25px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  color: #941b80;
+}
+
+.more-reword {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.fa-money {
+  color: #941b80;
+  margin-left: 10px;
+}
+
+.digiclub {
+  height: 220px;
+  width: 100%;
+  background: linear-gradient(to right, #35a6c8, #007295);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.club-logo {
+  align-self: flex-end;
+  width: 120px;
+  height: 40px;
+  background-image: url(../images/digiclub-logo-white.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.club-options {
+  height: 120px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+
+
+.club-complex {
+  width: 33.33%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.club-complex:first-child {
+  border-radius: 5px 0 0 5px;
+}
+.club-complex:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.club-icon {
+  color: #35a6c8;
+  font-size: 18px;
+}
+
+.club-image {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+
+.popular-sub-sec .popular-vitrine .vitrine{
+  width: 95%;
+}
+
+.trends {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.first-row-trends {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 450px;
+  margin-bottom: 10px;
+}
+
+.trends-title {
+  font-size: 18px;
+}
+
+.view-more {
+  color: #35a6c8;
+  font-size: 15px;
+}
+
+.trend-products {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.rating {
+  color: #35a6c8;
+  font-size: 25px;
+  width: 20%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trend-image {
+  display: block;
+  width: 30%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.description {
+  text-align: end;
+  padding-right: 10px;
+  font-size: 11px;
+
+}
+
+.trend-products-container {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 150px 150px 150px;
+}
+
+.last-commercial {
+  height: 68px;
+  width: 95%;
+  margin: auto;
+}
+.last-commerce {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.last-com-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+
+.off-products-container {
+  padding: 25px;
+}
+
+.discounted {
+  width: 100%;
+}
+
+.discounted .main-price {
+  width: 100%;
+}
+
+.discounted img {
+  width: 150px;
+}
+
+.discounts {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.discount-title {
+  text-align: center;
+  font-size: 22px;
+}
+
+
+.off-products-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(8, 235px);
+  column-gap: 30px;
+}
+
+.view-more-offer {
+  color: #35a6c8;
+  text-align: center;
+}
+
+.magazine {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.magazine-title {
+  text-align: end;
+  width: 100%;
+  padding: 10px;
+}
+
+.post {
+  width: 93%;
+  border: 1px solid #b1b1b0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.post-image {
+  width: 100%;
+  display: block;
+  margin-top: -5px;
+}
+
+.post-caption {
+  height: 45px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12px;
+  padding: 22px;
 }
